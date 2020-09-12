@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/gym.jpg'), url('img/logo.jpg');
+
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+
+            height: 1000px;
+
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            top: 23px;
+            left: 39px;
+            margin: 12px auto;
+
+        }
+
+        .left img {
+            width: 120px;
+            height:100px;
+            filter: invert(100%);
+            
+        }
+        #name
+        {
+            line-height: 0px;
+            text-align: center;
+        }
+
+        .right {
+            display: inline-block;
+            color: white;
+            position: absolute;
+            top: 23px;
+            right: 34px;
+            /* border: 2px solid yellow; */
+            margin: 12px auto;
+            
+
+        }
+        .btn
+        {
+            /* display: block;
+            margin-top:12px  auto; */
+            /* position: relative;
+            top:14px; */
+            font-size: 15px;
+            margin:10px 9px;
+            padding: 3px 14px;
+            cursor: pointer;
+            border-radius: 30px;
+            
+        }
+        .btn:hover
+        {
+           background-color:  rgba(194, 221, 132, 0.733);
+        }
+
+        .mid {
+            display: block;
+            width: 35%;
+            margin: 33px auto;
+            position: relative;
+            top: 0px;
+
+            /* border: 2px solid green; */
+        }
+
+        .navbar li {
+            display:inline-block;
+            background-color: rgb(215, 226, 183);
+            
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 34px 15px;
+            font-size: large;
+            color: rgb(29, 26, 28);
+            margin: auto;
+        }
+
+        .navbar li a:hover,.navbar li a.active {
+            color: blue;
+            text-decoration: underline red;
+
+        }
+        .container
+        {
+            border:2px solid green;
+            width:35%;
+            height:30%;
+            margin: 126px 150px;
+            padding: 55px;
+            border-radius: 30px;
+        }
+        .form-group input
+        {
+            text-align: center;
+            display: block;
+            margin:11px auto;
+            width: 400px;
+            padding: 2px;
+            font-size: 20px;
+            border-radius: 8px;
+        }
+        .container h1
+        {
+          text-align: center;
+          
+          
+
+        }
+        .container button
+        {
+            background-color: lightskyblue;
+            display: block;
+            width: 74%;
+            margin:11px auto ;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <p id="name">Rahul Fitness</p>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Caculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+        <button class="btn">Call Us</button>
+        <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+     <h1>JOIN THE BOKARO'S BEST GYM</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your name">
+
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your mobile number">
+
+        </div>
+               <div class="form-group">
+            <input type="text" name="" placeholder="enter your email id">
+
+        </div> 
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter your address">
+
+        </div> 
+        <button class="btn">Submit</button>
+
+    </form>
+    </div>
+</body>
+
+</html>

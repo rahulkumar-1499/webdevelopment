@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links and buttons</title>
+    <style>
+ .container
+ {
+     border: 2px solid rgb(107, 107, 248);
+     background-color: rgb(243, 182, 138) ;
+     margin: 50px auto ;
+     padding: 36px;
+     width: 600px;
+     height: 200px;
+     font-size: large;
+ }
+ a
+ {
+  text-decoration: none;           /* to remove underline part */
+ }
+ a:hover  /*this iis use when we want change int he region where we point the cursor*/
+ {
+      color: black; 
+      background-color: yellow; 
+ }
+ 
+ .btn:hover
+ {
+      background-color: red; 
+ }
+
+ .btn
+ {
+     background-color: burlywood;
+     padding: 6px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+ }
+ #head
+ {
+     margin-left: 200px;
+ }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+<h3 id="head">this is my heading</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nam cumque iste odit mollitia, magnam assumenda repellendus ducimus a voluptate obcaecati illo libero ut facere? Voluptatibus ad blanditiis veniam asperiores nisi necessitatibus doloremque cupiditate.</p>
+<a href="fun.html" target="blank" class="btn">read more</a>
+<button class="btn">
+   <a href="http://googlse.com" target="blank">contact us</a> 
+</button>
+
+    </div>
+</body>
+</html>
